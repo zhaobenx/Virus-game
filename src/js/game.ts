@@ -3,8 +3,8 @@ import { CollisionManager } from './collision'
 export class Game extends Node {
     private canvas: HTMLCanvasElement;
     private contex: CanvasRenderingContext2D;
-    private height: number = window.innerHeight;
-    private width: number = window.innerWidth;
+    private height: number = 1000;
+    private width: number = 800;
     detect_collision = 0;
     collision_manager: CollisionManager;
 
